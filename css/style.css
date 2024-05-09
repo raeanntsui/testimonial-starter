@@ -1,0 +1,56 @@
+/* Put any custom CSS styles here.  */
+/* Be sure to delete the <style> tag in index.html if you want to use this stylesheet. */
+body {
+  margin: 0;
+  font-family: "Noto Sans", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.credits {
+  color: #777;
+  position: fixed;
+  bottom: 24px;
+  left: 24px;
+  font-size: 11px;
+  text-align: center;
+}
+
+.credits a {
+  color: #000;
+  font-weight: bold;
+}
+
+.parent {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  border: 1px solid rgba(192, 192, 192, 0.5);
+  border-radius: 10px;
+  max-width: 500px;
+  padding: 40px;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.profile-picture > img {
+  border: 2px dashed blue;
+  max-height: 70px;
+}
+
+.upper {
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.lower {
+  border: 2px dashed green;
+}
